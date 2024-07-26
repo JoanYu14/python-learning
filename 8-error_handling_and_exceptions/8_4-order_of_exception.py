@@ -4,7 +4,6 @@
 try:
     lst = [1, 2, 3]
     print(lst[3])
-
 # 若將以下兩個except的順序互換的話IndexError的程式碼會變成半透明的，代表永遠不會被執行到
 except IndexError as error:
     dic = {"1": 1}
