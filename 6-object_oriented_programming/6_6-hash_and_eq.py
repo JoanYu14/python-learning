@@ -50,7 +50,7 @@ for robot in robots_set:
     print(f"Robot name: {robot.name}, Age: {robot.age}, Address: {robot.address}")
 
 
-# 沒加__eq__()之前的結果，可以看到有兩個Robot3，但其實robot3與robot4是一模一樣的
+# 沒加__eq__()之前的結果，可以看到有兩個Robot3，但其實robot3與robot4是一模一樣的，但是由於記憶體位置不同
 # Robot name: Robot2, Age: 3, Address: 456 Elm St
 # Robot name: Robot3, Age: 7, Address: 789 Oak St
 # Robot name: Robot3, Age: 7, Address: 789 Oak St
