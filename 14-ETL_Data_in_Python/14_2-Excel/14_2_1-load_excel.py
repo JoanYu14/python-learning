@@ -44,7 +44,6 @@ for row in ws.iter_rows():
 
 # 用來計算全壘打總數的變量
 sum = 0
-
 # 遍歷 result 中的數據，從第二行開始（跳過表頭）
 for r in result[1:]:
     # r[11] 表示該行的第 12 列（索引從 0 開始），將其轉換為整數並加到 sum 中
