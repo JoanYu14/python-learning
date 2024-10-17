@@ -37,7 +37,6 @@ for row in data_rows:
 excel_file_path = os.path.join(
     os.getcwd(), "14-ETL_Data_in_Python", "14_2-Excel", "new_file.xlsx"
 )
-
 # 設定工作表標籤的顏色，這裡使用十六進制顏色碼 "1072BA"（藍色）
 ws.sheet_properties.tabColor = "1072BA"
 
