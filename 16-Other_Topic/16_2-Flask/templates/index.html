@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 使用 Jinja2 模板語言進行條件渲染 -->
+    {% if name %}
+    <!-- 如果有傳入 name 變數 -->
+    <h2>Hello {{name}}!</h2>
+    <!-- 顯示 "Hello" 和傳入的 name -->
+    {% else %}
+    <!-- 如果沒有傳入 name 變數 -->
+    <h2>Hello World!</h2>
+    <!-- 顯示靜態文本 "Hello World!" -->
+    {% endif %}
+    <!-- 結束條件語句 -->
+
+    <hr />
+    <!-- 插入一條水平分隔線 -->
+
+    <!-- 定義一個表單，當提交時將請求發送到 /info 路徑，使用 POST 方法 -->
+    <form action="/info" method="post">
+      <button>Submit a request</button>
+      <!-- 提交請求的按鈕 -->
+    </form>
+  </body>
+</html>
